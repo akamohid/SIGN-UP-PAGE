@@ -1,2 +1,26 @@
+# Ignore Python bytecode cache (if any)
 __pycache__/
+*.py[cod]
+
+# Ignore log files
 *.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore VSCode project settings (if using VSCode)
+.vscode/
+
+# Ignore node_modules in case future tools are added
+node_modules/
+
+# Ignore ZIP or build artifacts
+*.zip
+dist/
+build/
