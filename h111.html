@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sign-in_page</title>
+    <style>
+        body {
+            background-color: rgb(236, 197, 230); /* Set a light background color for the whole page */
+        }
+
+        .container {  
+            padding: 20px; /* Add some padding */
+            border-radius: 11px; /* Add rounded corners */ /* Center the container horizontally */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+            background-color: rgb(236, 197, 230);
+        }
+
+        .main-image {
+            border-radius: 50%; /* Make the image rounded */
+            margin-bottom: 10px;
+        }
+
+        .form-container {
+            background-color: rgb(255, 255, 255); /* White background color for the form */
+            border-radius: 10px; /* Add rounded corners */
+            width: 100%; /* Full width */
+            max-width: 400px; 
+            max-height: 466px;/* Set maximum width */
+            overflow: auto; /* Add scroll bar if content exceeds container height */
+        }
+
+        .form-container h1 {
+            font-size: 1.9rem;
+        }
+
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Adjust width of the form */
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="password"] {
+            width: calc(55 - 10px); /* Adjust width of the text and password inputs */
+            padding: 5px;
+            background-color: #ffffff;
+            color: #000000;
+            border-radius: 5px;
+            font-size: 1rem;
+            border-color: #19d9e0;
+            border-width: 1.8px;
+            margin-bottom: 10px; /* Add some margin between inputs */
+        }
+
+        .form-container input[type="submit"] {
+            width: 53%; /* Adjust width of the submit button */
+            padding: 5px;
+            background-color: #ff33f5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px; /* Add some margin between button and inputs */
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: rgb(15, 218, 99);
+        }
+
+        .form-container .forgot-password {
+            font-size: 1rem;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .form-container .forgot-password a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .form-container .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container .sign-up-link {
+            font-size: 1rem;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .form-container .sign-up-link a {
+            color: #15b41a;
+            text-decoration: none;
+        }
+
+        .form-container .sign-up-link a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container .sign-in-with {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+        }
+
+        .form-container .sign-in-with a {
+            color: #7caf4c;
+            text-decoration: none;
+            margin:5px;
+        }
+
+        .form-container .sign-in-with a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-icons a img {
+            margin:0  10px;
+            border-radius: 50%; /* Make all images rounded */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/sss.jpg" width="100" height="100" class="main-image">
+        <div class="form-container">
+            <h1>&nbsp Login  </h1>
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label><br>
+                <input type="submit" value="Sign in">
+            </form>
+            <p class="sign-up-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p class="forgot-password"><a href="forgot-password.css">Forgot password?</a></p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="assets/fb.jpg" alt="Facebook" width="40" height="40"></a>
+            <a href="#"><img src="assets/WhatsApp.png" alt="WhatsApp" width="40" height="40"></a>
+            <a href="#"><img src="assets/twitter.png" alt="Twitter" width="40" height="40"></a>
+            <a href="#"><img src="assets/download.jpeg" alt="Instagram" width="40" height="40"></a>
+        </div>
+    </div>
+</body>
+</html>
