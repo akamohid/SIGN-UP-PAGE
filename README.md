@@ -1,4 +1,4 @@
-# 🌐 Web Sign-Up Page Project
+# 🌐 Web Sign-Up Page 
 
 Welcome to the **Web Sign-Up Page** project! This repository contains a simple, static HTML-based sign-in page with a clean design, intended for beginners to learn how to structure and style an HTML form. Below is an overview of everything included, instructions to run the page, and ideas for customization.
 
