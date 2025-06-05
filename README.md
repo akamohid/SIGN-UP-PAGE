@@ -170,6 +170,7 @@ Feel free to copy, modify, and share this project.
 Made by **Mohid Arshad**.  
 GitHub: [akamohid](https://github.com/akamohid)  
 Email: "akamohid@gmail.com"
+
 Live Repo: [https://github.com/akamohid/SIGN-UP-PAGE](https://github.com/akamohid/SIGN-UP-PAGE)
 
 ---
